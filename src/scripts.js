@@ -19,4 +19,7 @@ generateButton.addEventListener('click', () => {
 copyButton.addEventListener('click', () => {
   copy(resultArea.innerHTML);
   copySuccess.innerHTML = 'Copied!';
+  setTimeout(() => {
+    copySuccess.innerHTML = '';
+  }, 4000);
 });
