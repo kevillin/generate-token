@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",

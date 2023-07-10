@@ -76,3 +76,8 @@ body {
   text-decoration: underline;
   cursor: pointer;
 }
+
+#copy-success {
+  color: #0E5C05;
+  font-weight: bold;
+}
